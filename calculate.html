@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discount Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+  <style>
+   
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      color: cadetblue;
+      font-family: 'Poppins', sans-serif;
+    }
+    .form-group {
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-family: "Poppins", sans-serif;
+    }
+    input[type="number"] {
+      width: 100%;
+      padding: 5px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;    
+      border-radius: 10px; 
+    }
+    button:hover {
+      background-color: burlywood;
+      font-family: 'Poppins', sans-serif;
+    }
+   
+    h2{
+       margin-top: 2px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>DISCOUNT CALCULATOR</h2>
+    <h5>Enter the Bill Amount and Discount in Percentage</h5>
+    <div class="form-group">
+      <label for="originalPrice">Bill Amount:</label>
+      <input type="number" id="originalPrice" >
+    </div>
+    <div class="form-group">
+      <label for="discountPercentage">Discount Percentage:</label>
+      <input type="number" id="discountPercentage" >
+    </div>
+    <button >Calculate </button>
+    <h5>Total Discount Amount</h5>
+   
+  </div>
+
+</body>
+</html>

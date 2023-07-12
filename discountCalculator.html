@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Noticia+Text:ital@1&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 5px solid #ccc ;
+            border-radius: 5px;
+            color: cadetblue;
+            box-shadow: 5px;
+            background-color: black;
+        }
+        .form-group{
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        label{
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-family: 'Noticia Text', serif;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        button{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            font-family: 'Noticia Text', serif;
+        }
+        button:hover{
+            background-color: burlywood;
+        }
+        h2{
+            margin-top: 2px;
+            text-align: center;
+            font-family: 'Noticia Text', serif;
+        }
+        h5{
+            font-family: 'Noticia Text', serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<h2>DISCOUNT CALCULATOR</h2>
+<h5>Enter the Bill amount and Discount in Percentage</h5>
+<div class="form-group"> 
+<label for="originalPrice">Bill Amount</label>
+<input type="number" id="originalPrice">
+</div>
+<div class="form-group">
+<label for="discountPercentage">Discount Percentage</label>
+<input type="number" id="discountPercentage">
+</div>
+<button>Calculate</button>
+<h5>Total Discount Amount</h5>
+    </div>
+</body>
+</html>
