@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+   <style>
+    .photo-section{
+        display: inline-block ;
+        margin-left: 150px;
+       
+    
+    }
+    .content-section{
+        display: inline-block; 
+        font-family: 'Signika Negative', sans-serif;
+        font-size: x-large;
+        font-weight: bold;
+        margin-left: 100px;
+        padding-top: 0px;
+    }
+    .points li{
+        padding: 15px;
+        list-style-type: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: x-large;
+    }
+    .points li::before{
+        content: "👉 ";
+    }
+    .points li:hover{
+       color: orangered;
+        background-color: hsl(136, 89%, 75%);
+    }
+    .points li:nth-child(even)
+    {
+        background-color: #8ef5ec;   
+    }
+    .para::selection{
+        color: rgb(248, 35, 35);
+    }
+  .list li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 0px;     
+  }
+  .list li a{
+    padding: 0px;
+    color: #f5163b;
+  }
+  .list li a:hover{
+    color: #3cff00;
+  }
+  .list{
+    padding-top : 0px;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .img{
+    padding-top: 0px;
+    margin-left: 370px;
+    color: #3cff00  ;
+ }
+ .owner{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+   color: hsl(264, 83%, 47%);
+ }
+ .owner:hover{
+    color: aqua;
+ }
+
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo-section">
+            <img src="./dev.jpg">
+            <div class="img">
+            <i class="fa fa-user-circle-o fa-4x" aria-hidden="true"> </i> 
+            <p class="owner">Powered By <br><strong>JSoftware Lab</strong></p>
+        </div>
+         </div>
+        <div class="content-section">
+            <h2> Compare text Online </h2>
+            <ul class="points">
+              <li>I love learning new things.</li>
+              <li>The sun is shining brightly today.</li>
+              <li>I enjoy playing the guitar.</li>
+              <li>He laughed at the joke.</li>
+              <li>He wrote a letter to his friend.</li>
+              <li>I need to buy groceries.</li>
+              <li>They danced in the rain.</li>
+            </ul>
+        </div>
+        <footer>
+            <ul class="list">
+                Follow Me :
+                <li>
+                    <a href="https://github.com/chavandipak205/my-profil"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li> <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+   
+
+</body>
+</html>
